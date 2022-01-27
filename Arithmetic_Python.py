@@ -77,7 +77,7 @@ print(result_m_ceil)
 # Создать переменную result_int и result_division округлить до ближайшего целого через явное приведение.
 # Вывести result_int в консоль.
 
-result_int = int(round(result_division))
+result_int = int(result_division)
 print(result_int)
 
 # Создать переменную result_no_division_loss в которой вы разделите item_1 на item_2 без остатка.
@@ -133,7 +133,7 @@ print(item_3)
 # Присвоить остаток от деления item_3
 # Вывести item_3 в консоль.
 
-item_3 %= 2
+item_3 %= item_3
 print(item_3)
 
                                        # Boolean

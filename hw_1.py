@@ -18,15 +18,15 @@ frozen_set = frozenset('qw')
 # Dict
 dict_1 = {"key": 1}
 # Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
-print(type(str_st))
-print(type(int_1))
-print(type(fl))
-print(type(by))
-print(type(li))
-print(type(tuple_1))
-print(type(set_1))
-print(type(frozen_set))
-print(type(dict_1))
+print(str_st, type(str_st))
+print(int_1, type(int_1))
+print(fl, type(fl))
+print(by, type(by))
+print(li, type(li))
+print(tuple_1, type(tuple_1))
+print(set_1, type(set_1))
+print(frozen_set, type(frozen_set))
+print(dict_1, type(dict_1))
 # Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
 str_1 = "Go"
 str_2 = "Home"
